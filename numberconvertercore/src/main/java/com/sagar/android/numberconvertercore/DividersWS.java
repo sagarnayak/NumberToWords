@@ -13,7 +13,7 @@ class DividersWS {
     private static final String MILLION = "million";
     private static final String BILLION = "billion";
     private static final String TRILLION = "trillion";
-    static final String QUADRILLION = "quadrillion";
+    private static final String QUADRILLION = "quadrillion";
     static final String NO_MORE_DEVIDER_AVAILABLE = "NO_MORE_DEVIDER_AVAILABLE";
 
     static final int MAX_DIVIDER_LIMIT = 5;
@@ -36,6 +36,8 @@ class DividersWS {
                 return TRILLION;
             case 5:
                 return QUADRILLION;
+            case 6:
+                return QUINTILLION;
             default:
                 return NO_MORE_DEVIDER_AVAILABLE;
         }
