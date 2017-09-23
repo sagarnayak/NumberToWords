@@ -5,3 +5,4 @@ Run the app in android studio to see the library in action.
 The detailed explanation can be found in blog post below-
 1. Indian numer system - http://aideafactory.com/convert-number-word-representation-part-1/
 2. Western number system - http://aideafactory.com/convert-number-word-representation-part-2/
+3. Reading larger numbers - http://aideafactory.com/convert-number-word-representation-part-3-reading-larger-numbers/
