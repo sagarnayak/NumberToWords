@@ -307,7 +307,7 @@ public class ConvertWS {
                         result.setResult(
                                 conversionResultTemp.getResult().get(i) +
                                         DividersWS.SPACE +
-                                        DividersWS.QUADRILLION +
+                                        DividersWS.MILLINILLION +
                                         DividersWS.SPACE +
                                         convertSingleDigitToWords(
                                                 commasDividedStringArray[0]).getResult().get(0) +
@@ -331,7 +331,7 @@ public class ConvertWS {
                         result.setResult(
                                 convertDoubleDigitToWords(conversionResultTemp.getResult().get(i) +
                                         DividersWS.SPACE +
-                                        DividersWS.QUADRILLION +
+                                        DividersWS.MILLINILLION +
                                         DividersWS.SPACE +
                                         commasDividedStringArray[0]).getResult().get(0) +
                                         DividersWS.SPACE +
@@ -355,7 +355,7 @@ public class ConvertWS {
                         result.setResult(
                                 conversionResultTemp.getResult().get(i) +
                                         DividersWS.SPACE +
-                                        DividersWS.QUADRILLION +
+                                        DividersWS.MILLINILLION +
                                         DividersWS.SPACE +
                                         convertThreeDigitToWord(commasDividedStringArray[0]).getResult().get(0) +
                                         DividersWS.SPACE +
@@ -423,7 +423,7 @@ public class ConvertWS {
                                 result.setResult(
                                         conversionResultTemp.getResult().get(k) +
                                                 DividersWS.SPACE +
-                                                DividersWS.QUADRILLION +
+                                                DividersWS.MILLINILLION +
                                                 DividersWS.SPACE +
                                                 (conversionResult.getResult().get(j).equals(Numbers.ZERO) ?
                                                         "" :
@@ -452,12 +452,12 @@ public class ConvertWS {
                                     result.setResult(
                                             conversionResultTemp.getResult().get(i) +
                                                     DividersWS.SPACE +
-                                                    DividersWS.QUADRILLION + strRightSide);
+                                                    DividersWS.MILLINILLION + strRightSide);
                                 } else {
                                     result.setResult(
                                             conversionResultTemp.getResult().get(i) +
                                                     DividersWS.SPACE +
-                                                    DividersWS.QUADRILLION +
+                                                    DividersWS.MILLINILLION +
                                                     DividersWS.SPACE +
                                                     convertSingleDigitToWords(strLeftSide).getResult().get(0) +
                                                     DividersWS.SPACE +
@@ -483,13 +483,13 @@ public class ConvertWS {
                                 if (convertDoubleDigitToWords(strLeftSide).getResult().get(0).equals(Numbers.NOTHING)) {
                                     result.setResult(conversionResultTemp.getResult().get(i) +
                                             DividersWS.SPACE +
-                                            DividersWS.QUADRILLION +
+                                            DividersWS.MILLINILLION +
                                             DividersWS.SPACE + strRightSide);
                                 } else {
                                     result.setResult(
                                             conversionResultTemp.getResult().get(i) +
                                                     DividersWS.SPACE +
-                                                    DividersWS.QUADRILLION +
+                                                    DividersWS.MILLINILLION +
                                                     DividersWS.SPACE +
                                                     convertDoubleDigitToWords(strLeftSide).getResult().get(0) +
                                                     DividersWS.SPACE +
@@ -516,13 +516,13 @@ public class ConvertWS {
                                     result.setResult(
                                             conversionResultTemp.getResult().get(i) +
                                                     DividersWS.SPACE +
-                                                    DividersWS.QUADRILLION +
+                                                    DividersWS.MILLINILLION +
                                                     DividersWS.SPACE + strRightSide);
                                 } else {
                                     result.setResult(
                                             conversionResultTemp.getResult().get(i) +
                                                     DividersWS.SPACE +
-                                                    DividersWS.QUADRILLION +
+                                                    DividersWS.MILLINILLION +
                                                     DividersWS.SPACE +
                                                     convertThreeDigitToWord(strLeftSide).getResult().get(0) +
                                                     DividersWS.SPACE +
